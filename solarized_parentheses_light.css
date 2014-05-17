@@ -1,0 +1,84 @@
+/* Solarized colors:
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+
+.cm-s-solarized-parentheses-light {background: #fdf6e3; color: #657b83; font-weight: lighter; outline-color: #657b83;}
+.cm-s-solarized-parentheses-light .CodeMirror-activeline {background: #eee8d5;} /* TODO: why doesn't this work? */
+/* what is this?
+.cm-s-solarized-parentheses-light .CodeMirror-focused {background: #eee8d5;}
+*/
+.cm-s-solarized-parentheses-light .CodeMirror-selected {background: #eee8d5; outline: dashed 1px;}
+
+
+.cm-s-solarized-parentheses-light span.cm-atom {font-weight: normal;}
+.cm-s-solarized-parentheses-light span.cm-builtin {color: #586e75; font-weight: normal;}
+.cm-s-solarized-parentheses-light span.cm-comment {color: #839496; outline: dotted; outline-width: 1px;}
+.cm-s-solarized-parentheses-light span.cm-def {color: #586e75; font-weight: normal;}
+.cm-s-solarized-parentheses-light span.cm-header {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-keyword {color: #586e75; font-weight: normal;}
+.cm-s-solarized-parentheses-light span.cm-meta {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-number {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-qualifier {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-string {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-string-2 {color: #586e75;}
+.cm-s-solarized-parentheses-light span.cm-symbol {color: #586e75; font-weight: normal;}
+.cm-s-solarized-parentheses-light span.cm-tag {color: #586e75; font-weight: normal;}
+/*
+.cm-s-solarized-parentheses-light span.cm-variable {color: #657b83;}
+.cm-s-solarized-parentheses-light span.cm-variable-2 {color: #657b83;}
+*/
+
+/*.cm-s-solarized-parentheses-light span.cm-SUBST {color: #CCCCCC;} */
+
+
+
+.cm-s-solarized-parentheses-light span.cm-bracket {font-weight: bolder;} /* for some reason the bolder is ignored on load here so I put it everywhere else too */
+
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket1 {color: #6c71c4; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket2 {color: #268bd2; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket1 {color: #6c71c4; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket2 {color: #268bd2; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket1 {color: #6c71c4; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket2 {color: #268bd2; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket3 {color: #2aa198; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket4 {color: #859900; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket5 {color: #b58900; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket6 {color: #cb4b16; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket7 {color: #dc322f; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket8 {color: #d33682; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket9 {color: #6c71c4; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket10 {color: #268bd2; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket11 {color: #2aa198; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket12 {color: #859900; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket13 {color: #b58900; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket14 {color: #cb4b16; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket15 {color: #dc322f; font-weight: bolder;}
+.cm-s-solarized-parentheses-light span.cm-bracket.cm-bracket16 {color: #d33682; font-weight: bolder;}
+
+.cm-s-solarized-parentheses-light span.cm-bracket-mismatched {border-bottom: 2px dotted #dc322f !important; background: none; font-weight: bolder;}
+
+.cm-s-solarized-parentheses-light span.CodeMirror-matchingbracket {border-bottom: 2px solid #93a1a1;}
+.cm-s-solarized-parentheses-light span.CodeMirror-nonmatchingbracket {border-bottom: 2px dotted #93a1a1;}
+
+.cm-s-solarized-parentheses-light .cm-searching {outline: solid 1px #657b83 !important; background: #eee8d5}
+.cm-s-solarized-parentheses-light .searching-current {background: #eee8d5; outline: solid #657b83 !important; font-weight: bold;}
+
+.CodeMirror div.CodeMirror-cursor {border-left: 2px solid #93a1a1 !important;}
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {width: auto; border: none; background: #93a1a1 !important;}
+
+.CodeMirror-gutters {background: #002b36; border-right:1px solid #586e75; color: #073642}
