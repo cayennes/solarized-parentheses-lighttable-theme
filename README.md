@@ -1,5 +1,7 @@
 # Solarized Parentheses
 
+**not maintained** - lighttable is nifty, but it's not vim.
+
 ![example screenshot](screenshot.png)
 
 A [solarized](http://ethanschoonover.com/solarized) theme for [Light Table](http://www.lighttable.com) designed to work together with parentheses to make code readable.  Currently only includes light variant.
